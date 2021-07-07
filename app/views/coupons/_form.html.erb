@@ -1,0 +1,5 @@
+<%= form_for @coupon do |f| %>
+  Coupon Code <%= f.text_field :coupon_code %>
+  Store <%= f.text_field :store %>
+  <%= f.submit "Submit Coupon" %>
+<% end %>
